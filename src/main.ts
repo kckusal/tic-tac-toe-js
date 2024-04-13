@@ -7,7 +7,7 @@ function runApp() {
 
 	console.log("Subtract: 1 - 2 = ", calculator.subtract(1, 2));
 
-	console.log("Multiply: 1 * 2 =", calculator.multiply(1, 2));
+	console.log("Multiply: 1 * 2 * 3 =", calculator.multiply(1, 2, 3));
 
 	console.log("Divide: 1 / 2 =", calculator.divide(1, 2));
 }

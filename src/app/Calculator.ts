@@ -7,8 +7,8 @@ export class Calculator {
 		return a - b;
 	}
 
-	multiply(a: number, b: number): number {
-		return a * b;
+	multiply(a: number, b: number, c: number): number {
+		return a * b * c;
 	}
 
 	divide(a: number, b: number): number {
