@@ -5,6 +5,7 @@
   "main": "build/main.js",
   "type": "commonjs",
   "scripts": {
+    "build": "tsc",
     "start": "tsc && node ./build/main.js",
     "test": "vitest"
   },
