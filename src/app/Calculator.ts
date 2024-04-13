@@ -1,20 +1,20 @@
 export class Calculator {
-	add(a: number, b: number): number {
-		return a + b;
+	add(x: number, y: number): number {
+		return x + y;
 	}
 
-	subtract(a: number, b: number): number {
-		return a - b;
+	subtract(x: number, y: number): number {
+		return x - y;
 	}
 
-	multiply(a: number, b: number): number {
-		return a * b;
+	multiply(x: number, y: number): number {
+		return x * y;
 	}
 
-	divide(a: number, b: number): number {
-		if (b === 0) {
+	divide(x: number, y: number): number {
+		if (y === 0) {
 			throw new Error("Cannot divide by zero");
 		}
-		return a / b;
+		return x / y;
 	}
 }
