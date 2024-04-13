@@ -1,0 +1,25 @@
+{
+  "name": "ts-calculator",
+  "version": "1.0.0",
+  "description": "This is a simple Calculator app implementation written in Typescript (which gets compiled to JavaScript and is intended to be run in Node.js runtime) as part of Assessment 2 for the DevOps Tools (DOT503) subject offered at Torrens University Australia.",
+  "main": "build/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "tsc && node ./build/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kckusal/ts-calculator.git"
+  },
+  "keywords": [],
+  "author": "Kusal KC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kckusal/ts-calculator/issues"
+  },
+  "homepage": "https://github.com/kckusal/ts-calculator#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
