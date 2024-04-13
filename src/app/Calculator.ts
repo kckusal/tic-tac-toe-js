@@ -11,10 +11,10 @@ export class Calculator {
 		return x * y;
 	}
 
-	divide(x: number, y: number): number {
-		if (y === 0) {
+	divide(p: number, q: number): number {
+		if (q === 0) {
 			throw new Error("Cannot divide by zero");
 		}
-		return x / y;
+		return p / q;
 	}
 }
