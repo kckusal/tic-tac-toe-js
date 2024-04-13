@@ -1,14 +1,14 @@
 export class Calculator {
-	add(a: number, b: number): number {
-		return a + b;
+	add(x: number, y: number): number {
+		return x + y;
 	}
 
-	subtract(a: number, b: number): number {
-		return a - b;
+	subtract(x: number, y: number): number {
+		return x - y;
 	}
 
-	multiply(a: number, b: number): number {
-		return a * b;
+	multiply(x: number, y: number): number {
+		return x * y;
 	}
 
 	divide(p: number, q: number): number {
