@@ -3,7 +3,7 @@ import { Calculator } from "./app/Calculator";
 function runApp() {
 	const calculator = new Calculator();
 
-	console.log("Add: 1 + 2 = ", calculator.add(1, 2));
+	console.log("Add: 1 + 2 + 3 = ", calculator.add(1, 2, 3));
 
 	console.log("Subtract: 1 - 2 = ", calculator.subtract(1, 2));
 
