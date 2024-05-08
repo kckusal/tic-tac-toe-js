@@ -5,6 +5,10 @@ pipeline {
     NO_COLOR = 'true'
   }
 
+  tools {
+    nodejs 'NodeJS 16.17.0'
+  }
+
   stages {
     stage('Checkout') {
       steps {
