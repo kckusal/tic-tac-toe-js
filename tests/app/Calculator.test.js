@@ -10,8 +10,7 @@ describe("Calculator", () => {
   });
 
   test("adds two numbers correctly", () => {
-    // NOTE: This is an example case of failing test
-    expect(calculator.add(1, 2)).toBe(5);
+    expect(calculator.add(1, 2)).toBe(3);
   });
 
   test("subtracts second number from first correctly", () => {
@@ -19,8 +18,7 @@ describe("Calculator", () => {
   });
 
   test("multiplies two numbers correctly", () => {
-    // NOTE: This is an example case of failing test
-    expect(calculator.multiply(1, 2)).toBe(10);
+    expect(calculator.multiply(1, 2)).toBe(2);
   });
 
   test("divides first number by second correctly", () => {
